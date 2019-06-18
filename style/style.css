@@ -10,7 +10,8 @@ body {
   position: sticky;
   top: 0;
   margin-bottom: 0;
-  background: url(../images/header-bg.png) center top no-repeat;
+  /*background: url(../images/header-bg.png) center top no-repeat;*/
+  background:#2C9AC7;
 }
 .navbar-brand{
   padding:0 15px;
@@ -20,14 +21,14 @@ body {
 }
 .navbar-nav > li > a {
   margin-top: 15px;
-  color: #2C9AC7;
+  color: #ffffff;
   font-weight: 600;
 }
 .navbar img {
   max-width: 300px;
 }
 #myNavbar {
-  background: #fff;
+  background: #2C9AC7;
 }
 .navbar-nav > li > a {
   padding-bottom: 10px;
@@ -109,7 +110,7 @@ body {
 
 .navbar-nav > li > a:hover,
 .navbar-nav > li:active > a {
-  border-bottom: 2px solid #008aff;
+  border-bottom: 2px solid #fff;
   color: #008aff;
   background: #fff;
   transition: box-shadow 0.8s ease-in-out;
