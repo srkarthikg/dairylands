@@ -239,6 +239,10 @@ section.about h2 {
 }
 }
 @media only screen and (min-width:421px) and (max-width: 850px){
+  section.about{
+    margin-top:-60px;
+    margin-bottom: 62px;
+  }
   .Dairylands-bottle {
     width: 50% !important;
     margin-top: 30px;
@@ -253,6 +257,12 @@ section.about h2 {
 }
   .about-image {
     padding-left: 122px;
+}
+.about-dairy-lands{
+  font-size: 14px;
+  line-height: 18px;
+  margin: 19px 88px 15px 54px !important;
+  color: #000000 !important;
 }
 }
 @media only screen and (max-width: 375px) {
