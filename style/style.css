@@ -205,9 +205,7 @@ section.about h2 {
 .about-dairy-lands{
   font-size: 14px;
   line-height: 18px;
-}
-.about-dairy-lands{
-  margin: 19px 88px 15px 231px;
+  margin: 19px 88px 15px 231px !important;
   color: #000000 !important;
 }
 @media only screen and (min-width: 375px){
@@ -228,7 +226,7 @@ section.about h2 {
     line-height:35px;
   }
   .about-dairy-lands {
-    margin: 19px 18px 15px 18px;
+    margin: 19px 18px 15px 18px !important;
     color: #000000 !important;
 }
 }
