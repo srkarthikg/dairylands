@@ -230,7 +230,7 @@ section.about h2 {
     color: #000000 !important;
   }
 }
-}
+
 @media only screen and (min-width:400px) and (max-width: 700px){
   .Dairylands-bottle {
     width: 50% !important;
