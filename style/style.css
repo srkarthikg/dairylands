@@ -208,7 +208,7 @@ section.about h2 {
   margin: 19px 88px 15px 231px !important;
   color: #000000 !important;
 }
-@media only screen and (min-width: 375px){
+@media only screen and (max-width:420px){
   section.about{
     margin-top: -60px;
     margin-bottom: 62px;
@@ -229,9 +229,16 @@ section.about h2 {
     margin: 19px 18px 15px 18px !important;
     color: #000000 !important;
   }
+  
+  .about-image {
+    padding-left: 89px !important;
 }
-
-@media only screen and (min-width:400px) and (max-width: 700px){
+.dairy-lands-details{
+  margin: 25px 79px 0px 0px !important;
+  height: 379px;    
+}
+}
+@media only screen and (min-width:421px) and (max-width: 850px){
   .Dairylands-bottle {
     width: 50% !important;
     margin-top: 30px;
@@ -249,13 +256,6 @@ section.about h2 {
 }
 }
 @media only screen and (max-width: 375px) {
-  .about-image {
-    padding-left: 215px !important;
-}
-.dairy-lands-details{
-  margin: 25px 79px 0px 99px !important;
-  height: 379px;    
-}
 }
 
 /*about milk ends*/
