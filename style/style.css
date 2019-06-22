@@ -3,7 +3,7 @@ body {
 }
 /*menu bar starts*/
 .navbar {
-  height: 100px;
+  height: 67px;
   padding: 15px;
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   z-index: 999;
@@ -20,12 +20,12 @@ body {
   background: grey;
 }
 .navbar-nav > li > a {
-  margin-top: 15px;
+  margin-top: 0px;
   color: #ffffff;
   font-weight: 600;
 }
 .navbar img {
-  max-width: 300px;
+  max-width: 130px;
 }
 #myNavbar {
   background: #2C9AC7;
@@ -173,6 +173,10 @@ opacity: 1;
 }
 /*slick slider ends*/
 /*about milk starts*/
+section.about{
+  margin-top:-120px;
+  margin-bottom: 62px;
+}
 .about h3{
   font-size: 18px;
   color: #ffffff;
@@ -181,21 +185,100 @@ opacity: 1;
   font-size: 13px;
   color: #ffffff;
 }
-section.about{
-  margin-top:-120px;
-  margin-bottom: 62px;
-}
 section.about h2 {
   margin-bottom: 0;
   padding-bottom: 0;
 }
+.about-image{
+  height: 91px;
+  padding-left: 92px;
+  margin-top: -20px;
+}
+.widget-title {
+  font-size: 40px;
+  line-height: 42px;
+  padding-bottom: 30px;
+  color: #2C9AC7!important;
+  text-align: center;
+  font-weight: 700;
+}
+.about-dairy-lands{
+  font-size: 14px;
+  line-height: 18px;
+}
+.about-dairy-lands{
+  margin: 19px 88px 15px 231px;
+  color: #000000 !important;
+}
+@media only screen and (min-width: 375px){
+  section.about{
+    margin-top: -60px;
+    margin-bottom: 62px;
+  }
+  .about-image{
+    padding-left: 68px;
+  }
+  .Dairylands-bottle {
+    width: 70%;
+    margin-top: 30px;
+    margin-left: 32px;
+  }
+  .widget-title{
+    font-size: 30px;
+    line-height:35px;
+  }
+  .about-dairy-lands {
+    margin: 19px 18px 15px 18px;
+    color: #000000 !important;
+}
+}
+@media only screen and (max-width: 700px){
+  .Dairylands-bottle {
+    width: 50% !important;
+    margin-top: 30px;
+    margin-left: 163px;
+  }
+  .dairy-lands-details {
+    background: #2C9AC7;
+    border-radius: 34%;
+    padding: 40px;
+    margin: 25px 79px 0px 99px !important;
+    height: 379px;
+}
+  .about-image {
+    padding-left: 122px;
+}
+}
+@media only screen and (max-width: 375px) {
+  .about-image {
+    padding-left: 215px !important;
+}
+}
+
 /*about milk ends*/
 /*how it works starts*/
 section#how-it-works h2 {
   margin-bottom: 0;
   padding-bottom: 0;
 }
-
+.dairy-lands-about{
+  visibility: visible;
+  animation-delay: 0.6s;
+  animation-name: fadeInUp;
+}
+.dairy-lands-details
+{
+  background: #2C9AC7; 
+  border-radius: 34%;
+  padding: 40px;
+  margin: 25px 0px 0px 0px;
+  height: 379px;
+}
+.Dairylands-bottle
+{
+  width: 85%;
+  margin-top: 53px;
+}
 .gray-bg {
   padding-bottom: 30px;
 }
@@ -207,14 +290,7 @@ section#how-it-works h2 {
   text-align: center;
   margin-top: 0;
 }
-.widget-title {
-  font-size: 40px;
-  line-height: 42px;
-  padding-bottom: 30px;
-  color: #2C9AC7!important;
-  text-align: center;
-  font-weight: 700;
-}
+
 .timeline {
   list-style: none!important;
   padding: 0!important;
@@ -295,22 +371,28 @@ ul {
   border-color: #2C9AC7;
 }
 .timeline>li .timeline-panel {
-  
   background: #2C9AC7;
   color: #ffffff;
   border-radius: 0;
+  padding: 33px 20px 20px 85px;
   
 }
 .timeline>li.timeline-inverted>.timeline-panel {
  float: right;
- text-align: left;
- padding: 10px 20px 20px 85px;
+ padding: 33px 20px 20px 85px;
  background: #2C9AC7;
  color: #ffffff;
  border-radius: 1;
  right: 7%;
  left: auto;
-
+}
+.timeline>li .timeline-image h4 {
+  font-size: 15px !important;
+  margin-top: 24px !important;
+  line-height: 18px !important;
+}
+.timeline-inverted .timeline-heading h4{
+  margin-top:-24px;
 }
 .how-image{
   border-radius:21%
@@ -417,11 +499,6 @@ section h4 {
   margin-top: 12px;
   line-height: 14px;
 }
-.timeline>li .timeline-image h4 {
-    font-size: 10px;
-    margin-top: 12px;
-    line-height: 14px;
-}
 .timeline-image h4 {
   color: #fff!important;
 }
@@ -445,6 +522,53 @@ section h4 {
     line-height: 18px;
 }
 }
+@media (max-width: 640px)
+{
+    .timeline>li .timeline-panel {
+    width: 80%;
+    padding: 10px 10px 10px 75px;
+    left: 22%;
+    height: 150px;
+}
+.timeline>li .timeline-panel {
+  margin-left: 71px;
+  border-radius: 6%;
+}
+.timeline:before {
+  left: 65px !important;
+
+}
+.timeline:before {
+  top: 0;
+  bottom: 35px;
+  position: absolute;
+  content: "";
+  width: 3px;
+  background-color: #2C9AC7;
+  left: 40px;
+  margin-left: -1.5px;
+}
+.timeline .timeline-heading h4 {
+  font-size: 16px;
+}
+.timeline-body p {
+  font-size: 9px;
+  line-height: 13px;
+}
+.timeline>li .timeline-image h4 {
+  font-size: 15px !important;
+  margin-top: 24px !important;
+  line-height: 18px !important;
+}
+section h4{
+  line-height:20px;
+}
+}
+@media only screen and (min-width:400px){
+  .timeline>li.timeline-inverted>.timeline-panel>.timeline-heading {
+    padding-top:-21px!important;
+  }
+}
 /*how it works ends*/
 /*testimonial starts*/
 .testimonial {
@@ -460,14 +584,7 @@ section h4 {
 }
 /*testimonial ends*/
 /*subscription starts*/
-.about-dairy-lands{
-  font-size: 14px;
-  line-height: 18px;
-}
-.about-dairy-lands{
-  margin: 19px 88px 15px 231px;
-  color: #000000 !important;
-}
+
 .slider-items {
   margin: 0 auto;
   padding-bottom: 0px;
@@ -493,6 +610,33 @@ section h4 {
 b {
   font-weight: bold;
 }
+.mobile-app img{
+  margin-top: -1px;
+  max-width:100%;
+}
+@media only screen and (max-width: 400px){
+  .mobile-app img{
+    max-width: 100% !important;
+  }
+  .mobile-app a > img {
+    max-width: 40% !important;
+  }
+}
+@media only screen and (max-width: 640px){
+  .mobile-app img {
+      max-width: 100%;
+  }
+}
+@media only screen and (max-width: 910px)
+{
+  .mobile-app img {
+      margin-bottom: 20px;
+      max-width: 100%;
+  }
+  .mobile-app a > img {
+    max-width: 40%;
+  }
+}
 /*subscription ends*/
 /*footer starts*/
 footer{
@@ -517,7 +661,7 @@ footer.common-footer .footer-widget strong {
   min-width: 755px;
   margin: 0 auto;
   position: static !important;
-  padding-top: static!important;
+  padding-top: 50px !important;
   overflow: hidden;
   line-height: 24px;
   margin-top: 45px;
@@ -558,5 +702,10 @@ footer a:focus, a:hover {
   color: #2C9AC7 !important;
   text-decoration: none;
   cursor: pointer;
+}
+@media only screen and (max-width: 640px){
+  footer .col-sm-6 {
+    width: 50%;
+  }
 }
 /*footer ends*/
