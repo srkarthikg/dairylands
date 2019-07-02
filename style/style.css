@@ -1,5 +1,8 @@
 body {
   font-family: "Raleway", sans-serif;
+  height:100%;
+  width:100%;
+  overflow-x: hidden;
 }
 /*menu bar starts*/
 .navbar {
@@ -672,7 +675,7 @@ footer.common-footer .footer-widget strong {
   text-align: left;
   width: 100%;
   max-width: 1045px;
-  min-width: 755px;
+  /* min-width: 755px; */
   margin: 0 auto;
   position: static !important;
   padding-top: 50px !important;

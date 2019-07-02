@@ -79,11 +79,11 @@
 
 .slick-prev
 {
-    left: -25px;
+    left: 0;
 }
 [dir='rtl'] .slick-prev
 {
-    right: -25px;
+    right: 0;
     left: auto;
 }
 .slick-prev:before
@@ -97,12 +97,12 @@
 
 .slick-next
 {
-    right: -25px;
+    right: 0;
 }
 [dir='rtl'] .slick-next
 {
     right: auto;
-    left: -25px;
+    left: 0;
 }
 .slick-next:before
 {
@@ -201,4 +201,9 @@
 {
     opacity: .75;
     color: black;
+} 
+@media (max-width:591px){
+    .slick-prev,.slick-next{
+        display:none !important;
+    }
 }
