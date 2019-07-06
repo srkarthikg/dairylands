@@ -273,7 +273,7 @@ section.about h2 {
 
 /*about milk ends*/
 /*how it works starts*/
-section#how-it-works h2 {
+section#how-we-work h2 {
   margin-bottom: 0;
   padding-bottom: 0;
 }
@@ -303,7 +303,7 @@ section#how-it-works h2 {
   background-color: #e7ebe8;
   background: url(../images/farmery-bg-gray_1.jpg);
 }
-.how-it-works {
+.how-we-work {
   text-align: center;
   margin-top: 0;
 }
