@@ -5,8 +5,6 @@
     }, 1000)
   });*/
   var href = $(this).attr('href');
-  console.log(href);
-  alert(href);
   $(href).bind('click', function(e) {
     e.preventDefault(); // prevent hard jump, the default behavior
 
