@@ -656,6 +656,11 @@ b {
 }
 /*subscription ends*/
 /*footer starts*/
+@media (max-width: 910px){
+  footer {
+      margin-top: 200px;
+  }
+}
 footer{
   display:block;
 }
@@ -723,6 +728,11 @@ footer a:focus, a:hover {
 @media only screen and (max-width: 640px){
   footer .col-sm-6 {
     width: 50%;
+  }
+}
+@media (max-width: 910px){
+  footer {
+      margin-top: 200px;
   }
 }
 /*footer ends*/
