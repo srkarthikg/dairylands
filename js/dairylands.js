@@ -18,7 +18,7 @@
 
     return false;
 });
-}); 
+
     $('.intro-section').slick({
         dots: true,
         infinite: true,
