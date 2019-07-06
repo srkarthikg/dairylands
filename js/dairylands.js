@@ -4,7 +4,10 @@
       scrollTop: $("div.middle").offset().top
     }, 1000)
   });*/
-  $('a[href*=#]').bind('click', function(e) {
+  var href = $(this).attr('href');
+  console.log(href);
+  alert(href);
+  $(href).bind('click', function(e) {
     e.preventDefault(); // prevent hard jump, the default behavior
 
     var target = $(this).attr("href"); // Set the target as variable
@@ -29,7 +32,7 @@
         autoplay:true,
         adaptiveHeight: true
       });
-      $(window).on('resize', function() {
+      /*$(window).on('resize', function() {
         $('.intro-section').slick('resize');
-    });
+    });*/
     });
