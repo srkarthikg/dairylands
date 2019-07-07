@@ -35,6 +35,8 @@
         autoplay:true,
         autoplayTimeout:5000,
         autoplayHoverPause:true,
-        loop:true
+        loop:true,
+        nav:true,
+        mouseDrag: true
       });
     });
