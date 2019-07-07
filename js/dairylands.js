@@ -20,7 +20,7 @@
     return false;
 });
 
-    $('.intro-section').slick({
+    /*$('.intro-section').slick({
         dots: false,
         infinite: true,
         speed: 1000,
@@ -28,8 +28,13 @@
         mobileFirst: true,
         arrows: true,
         autoplay:true
+      });*/
+      $('.owl-carousel').owlCarousel({
+        items: 1,
+        autoHeight: true,
+        autoplay:true,
+        autoplayTimeout:5000,
+        autoplayHoverPause:true,
+        loop:true
       });
-      /*$(window).on('resize', function() {
-        $('.intro-section').slick('resize');
-    });*/
     });

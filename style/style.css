@@ -135,6 +135,12 @@ body {
 .intro-section h1 b {
   font-size: 40px;
 }*/
+@media only screen and (max-width: 450px) {
+  .intro-section {
+    height: auto;
+    padding: 60px 20px!important;
+  }  
+}
 @media only screen and (max-width: 991px) {
   .intro-section {
     height: auto;
