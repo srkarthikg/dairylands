@@ -177,7 +177,7 @@ opacity: 1;
 /*slick slider ends*/
 /*about milk starts*/
 section.about{
-  margin-top:-120px;
+ /* margin-top:-120px;*/
   margin-bottom: 62px;
 }
 .about h3{
