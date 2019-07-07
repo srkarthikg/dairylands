@@ -21,14 +21,13 @@
 });
 
     $('.intro-section').slick({
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 1000,
         slidesToShow: 1,
         mobileFirst: true,
         arrows: true,
-        autoplay:true,
-        adaptiveHeight: true
+        autoplay:true
       });
       /*$(window).on('resize', function() {
         $('.intro-section').slick('resize');
